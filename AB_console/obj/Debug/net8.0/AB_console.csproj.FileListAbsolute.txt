@@ -16,3 +16,4 @@
 /Users/austinfrick/challenge_adress_book/AB_console/obj/Debug/net8.0/AB_console.pdb
 /Users/austinfrick/challenge_adress_book/AB_console/obj/Debug/net8.0/AB_console.genruntimeconfig.cache
 /Users/austinfrick/challenge_adress_book/AB_console/obj/Debug/net8.0/ref/AB_console.dll
+/Users/austinfrick/challenge_adress_book/AB_console/obj/Debug/net8.0/AB_console.sourcelink.json

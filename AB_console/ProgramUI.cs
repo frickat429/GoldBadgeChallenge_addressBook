@@ -54,8 +54,9 @@ namespace AB_repo;
         private void SeedContacts()
         {
         _contactRepository.AddContact(new Contact{Id = 1, Name = "Rowen Solo", Address = "424 Oak Tree LN ", Email = "RowSO@craftables.com", PhoneNumber = "555-000"}) ;
-        _contactRepository.AddContact(new Contact{Id = 2, Name = "Edith Green", Address = "820 E. Donley DR.", Email = "EdithG@NorthChurch.com", PhoneNumber = "332-0122" }) ;
-        _contactRepository.AddContact(new Contact{Id = 3, Name = "Noel Seeker", Address = "E. Street Apt. 104", Email = "NoLSeeker@Noelsbakery.com", PhoneNumber = "954-0987"});
+        _contactRepository.AddContact(new Contact{Id = 2, Name = "Olivia Green", Address = "820 E. Donley DR.", Email = "Oliv@RoccAgency.com", PhoneNumber = "332-0122" }) ;
+        _contactRepository.AddContact(new Contact{Id = 3, Name = "Noel Seeker", Address = "E. Street Apt. 104", Email = "NoLSeeker@Noelsbakery.com", PhoneNumber = "954-0987"}) ; 
+        _contactRepository.AddContact(new Contact{Id = 4, Name = "Alex Dudley", Address = "E. Street Apt. 204", Email = "DetectiveDoodles@CSpolice.com", PhoneNumber = "280-7279"}) ;
         }
        //Read 
        //List all contacts

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AB_console", "AB_console\AB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AB_repo", "AB_repo\AB_repo.csproj", "{B3C20ED9-8EB8-491A-AEC8-BF8115C48F3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unitTest_Address", "AB_unitTests\unitTest_Address.csproj", "{352450F3-CB4B-418F-A81D-42F226D7A753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B3C20ED9-8EB8-491A-AEC8-BF8115C48F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3C20ED9-8EB8-491A-AEC8-BF8115C48F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3C20ED9-8EB8-491A-AEC8-BF8115C48F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352450F3-CB4B-418F-A81D-42F226D7A753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352450F3-CB4B-418F-A81D-42F226D7A753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352450F3-CB4B-418F-A81D-42F226D7A753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352450F3-CB4B-418F-A81D-42F226D7A753}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

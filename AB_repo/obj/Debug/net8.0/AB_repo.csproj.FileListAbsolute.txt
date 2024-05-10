@@ -9,3 +9,4 @@
 /Users/austinfrick/challenge_adress_book/AB_repo/obj/Debug/net8.0/refint/AB_repo.dll
 /Users/austinfrick/challenge_adress_book/AB_repo/obj/Debug/net8.0/AB_repo.pdb
 /Users/austinfrick/challenge_adress_book/AB_repo/obj/Debug/net8.0/ref/AB_repo.dll
+/Users/austinfrick/challenge_adress_book/AB_repo/obj/Debug/net8.0/AB_repo.sourcelink.json
