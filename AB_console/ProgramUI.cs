@@ -81,11 +81,23 @@ namespace AB_repo;
         } 
         else 
         {
-        Console.WriteLine($"Contacts found with the name '{name}':");
+        Console.WriteLine($"Contacts found with the name '{name}':"); 
+        List<Contact> result = new List<Contact>();
         foreach(var contact in contacts) 
+        { 
+         string[] names = contact.Name.Split(' ');
+        if (names.Length > 0 && names[0].ToLower() == name.ToLower() ) 
         {
-            Console.WriteLine($"Name : {contact.Name}, Address : {contact.Address}, Email : {contact.Email}, PhoneNumber : {contact.PhoneNumber}") ;
+            result.Add(contact);
         }
+        
+        {
+            
+        }
+        } 
+
+            foreach(var contact in contacts)
+            Console.WriteLine($"Name : {contact.Name}, Address : {contact.Address}, Email : {contact.Email}, PhoneNumber : {contact.PhoneNumber}") ;
         }
        }
 
